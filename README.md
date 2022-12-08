@@ -1,3 +1,5 @@
+Select any one of the planets on the left of the screen, and wait for our satellite to find information about that planet.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

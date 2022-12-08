@@ -5,9 +5,141 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;  
+  height: 100%;
+  color: white;
+}
+#root {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btnMercury {
+  top:130px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  background: black;
+}
+.btnVenus {
+  top:160px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  background: black;
+}
+.btnMars {
+  top:190px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  background: black;
+}
+.btnJupiter {
+  top:220px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  background: black;
+}
+.btnSaturn {
+  top:250px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  background: black;
+}
+.btnUran {
+  top:280px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  background: black;
+}
+.btnNeptune {
+  top:310px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  background: black;
+}
+.btnPluto {
+  top:340px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  background: black;
+}
+.btnEarth {
+  top:370px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  background: black;
+}
+.btnSun {
+  top:400px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  background: black;
+}
+.btnSystem {
+  top:430px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 12px;
+  color: rgb(21, 186, 207);
+  border: 1px solid white;
+  background: black;
+}
+canvas {
+ z-index: 0;
+}
+
+#planetDescription {
+  font-family: 'Segoe UI';
+  width: 300px;
+  position: absolute;
+  z-index: 100;
+  display: none;
+  left: 65%;
+  top: 35%;
 }
